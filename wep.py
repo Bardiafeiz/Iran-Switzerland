@@ -40,6 +40,8 @@ def show_alert(text, kind):
 
         if massage_box.clickedButton() == yes:
             return True
+        else:
+            pass
 
 
 # Create a class for each ui page
