@@ -177,7 +177,7 @@ class Start:
     def connect_to_db(self):
         self.connection_alert()
         try:
-            self.client = MongoClient("mongodb+srv://Bardia:npe221@cluster0-iou38.mongodb.net/test?retryWrites=true&w=majority")
+            self.client = MongoClient("mongodb_address")
             print("connected!")
             self.db_connection = True
         except:
